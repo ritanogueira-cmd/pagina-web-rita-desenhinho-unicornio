@@ -13,17 +13,28 @@
             margin: 0 auto;
             padding: 16px;
         }
+
         main{
             background-color: rgb(183, 234, 217);
             color: rgb(65, 152, 152);
             margin: 0 auto;
             padding: 16px;
         }
+        article{
+            display: flex;
+        }
+
         Img{
             width: 80px;
             height: 80px;
         }
+
+        .artigo-autor{
+            font-weight: bold;
+        }
+
     </style>
+
 </head>
 <body>
     <header>
@@ -32,25 +43,35 @@
     </header>
     <main>
         <article> 
-                <img src="imagem-blog.png" alt= "únicornio fofo">
-                <h2>Meu primeiro post ✐</h2>
+            <img src="imagem-blog.png" alt= "únicornio fofo">
+            <div>
+                <p class=".artigo-autor">Meu primeiro post sobre desenhos e séries! ✐</p>
+               <h2>Meu primeiro post</h2
                 <p>Por: Rita de Cássia⚝</p>
                 <p>Seja bem vindo/a ao meu blog de desenhos e séries!!! ^^</p>
+                <button>🐿️<span> 0 </span></button>
+                <button>🎀<span> 0 </span></button>
+            </div>
         </article>
 
         <article>
             <img src="segundo-post.png" alt= "únicornio fofo">
-            <h2>Meu segundo post ✐</h2>
-            <p>Por: Rita de Cássia⚝</p>
-            <p>Lista dos melhores desenhos que EU já assisti! ღ</p>
-                <ul>
+            <div>
+            <p class=".artigo-autor">Meu segundo post sobre desenhos e séries! ✐</p>
+            <h2>Meu segundo post</h2>
                     <li>1. Avatar, a lenda de Aang</li>
                     <li>2. Steven Universo</li>
                     <li>3. Cowboy Bebop</li>
                     <li>4. Evangelion</li>
                     <li>5. Arcane</li>
                 </ul>
-        </article>;
+                <button>🐿️<span> 0 </span></button>
+                <button>🎀<span> 0 </span></button>
+            </div>
+    </article>;
     </main>
+    <footer>
+        <h3>Todos os direitos estão reservados ao autor do blog - Rita de Cássia Souza Nogueira</h3>
+    </footer>
 </body>
 </html>
